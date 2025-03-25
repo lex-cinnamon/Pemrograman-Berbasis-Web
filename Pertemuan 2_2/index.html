@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Gambar</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align: center; margin: 20px;">Galeri Foto Pemandangan Indah</h3>
+    <div class="gallery">
+        <img src="image1.jpg" alt="Pemandangan 1">
+        <img src="image2.jpg" alt="Pemandangan 2">
+        <img src="image3.jpg" alt="Pemandangan 3">
+        <img src="image4.jpg" alt="Pemandangan 4">
+        <img src="image5.jpg" alt="Pemandangan 5">
+        <img src="image6.jpg" alt="Pemandangan 6">
+    </div>
+</body>
+</html>
