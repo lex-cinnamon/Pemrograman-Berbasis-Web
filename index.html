@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="GET">
+        <h1 style="text-align: center;">Pendaftaran Mahasiswa Baru</h1>
+        <div class="formulir">
+            <label for="npm">NPM (Nomor Pokok Mahasiswa)</label>
+            <br>
+            <input type="number" name="npm" id="npm">
+            <br><br>
+            <label for="nama">Nama Lengkap</label>
+            <br>
+            <input type="text" name="nama" id="nama">
+            <br><br>
+            <label for="alamat">Alamat</label>
+            <br>
+            <textarea name="alamat" id="alamat"></textarea>
+            <br><br>
+            <label for="gender">Jenis Kelamin</label>
+            <br>
+            <input type="radio" name="jenis_kelamin" id="Laki-Laki" value="Laki-Laki">
+            <label for="Laki-Laki">Laki-Laki</label>
+            <input type="radio" name="jenis_kelamin" id="Perempuan" value="Perempuan">
+            <label for="Perempuan">Perempuan</label>
+            <br><br>
+            <label for="jurusan">Jurusan</label>
+            <br>
+            <select name="jurusan" id="jurusan">
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Informatika">Informatika</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Tambah" class="button">
+        </div>
+    </form>
+</body>
+</html>
